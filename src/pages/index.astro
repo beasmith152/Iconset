@@ -10,7 +10,7 @@ import "../styles/icons.css";
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   </head>
 
   <body>
@@ -18,7 +18,7 @@ import "../styles/icons.css";
 
       <section class="hero">
         <p class="eyebrow">Lucide + GSAP</p>
-        <h1>Cyber Study Desk</h1>
+        <h1>Animated SVG Icon Project</h1>
         <p>Animated SVG icon set built with Astro.</p>
       </section>
 
@@ -72,7 +72,7 @@ import "../styles/icons.css";
 
     </main>
 
-    <script>
+    <script is:inline>
       gsap.from(".icon-card", {
         opacity: 0,
         y: 40,
