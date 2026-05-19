@@ -50,6 +50,8 @@ h1 {
   text-align: center;
 
   transition: 0.25s ease;
+
+  opacity: 1;
 }
 
 .icon-card:hover {
